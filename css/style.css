@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+header{
+    box-shadow: 3px 5px 20px 0px hsl(206deg 13% 78%);
+}
+section{
+    padding-top: 30px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+footer{
+    background-color: #333333;
+    margin-top: 30px;
+    color: white;
+    padding: 50px;
+    position: relative;
+    top: 350px;
+}
+
+.logo{
+    padding: 15px 40px;
+    position: relative;
+}
+.menu{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.container-carousel{
+    width: 100%;
+    position: relative;
+    
+}
+.arrow-left{
+    position: relative;
+    bottom: 150px;
+    right: 280px;
+}
+.arrow-right{
+    position: relative;
+    bottom: 174px;
+    left: 278px;
+}
+.container{
+    display: inline-block;
+    justify-content: left;
+    padding-top: 20px;
+    color: rgb(78, 74, 74);
+    width:608px
+}
+.left-container{
+    background-color: #F5F6F6;
+    width: 45%;
+    float: left;
+    margin-left: 0;
+}
+.left-container img{
+    width: 100%;
+}
+.left-container p{
+    padding: 0 20px;
+}
+.right-container{
+    background-color: #F5F6F6;
+    width: 45%;
+    float: right;
+    margin-right: 0;
+}
+.right-container img{
+    width: 100%;
+}
+.right-container p{
+    padding: 0 20px;
+}
+.infos{
+}
+.price{
+    display: inline-block;
+    color: gray;
+    font-size: 1.3rem;
+}
+.tag{
+    display: inline-block;
+    background-color: green;
+    border-radius: 10px;
+    padding: 2px 14px;
+    color: white;
+    font-size: 1.2rem;
+}
+.tag-2{
+    display: inline-block;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 2px 14px;
+    color: white;
+    font-size: 1.2rem;
+
+}
+.container-bottom{
+    padding-top: 50px;
+    font-size: 1.2rem;
+    color: gray;
+    
+}
+.container-bottom img{
+    filter: opacity(0.5);
+    padding-top: 10px;
+    position: relative;
+    display:inline-block;
+    top: 10px;
+}
+.types{
+    color: white;
+    text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.301);
+    display: inline-block;
+    position: absolute;
+    margin-top: 35px;
+    padding-right: 10px;
+}
+
+.style-imgs{
+    position: absolute;
+}
+.types p{
+    padding-bottom: 56px;
+}
+.footer-right{
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    line-height: 20px;
+}
+.footer-left{
+    display: inline-block;
+    padding-top: 10px;
+}
+.social-media img{
+    margin-right: 15px;
+}
